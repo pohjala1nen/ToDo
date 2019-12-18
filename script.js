@@ -1,7 +1,7 @@
 $(document).ready(function(){
-        function run(){
+function run(){
 var password = prompt("Password Please");
-if(password != 'Janne'){
+if(password != 'Hacker'){
 document.body.innerHTML = '';
 document.body.innerHTML = 'Password Failed! Reload to Renter Password';
 }else{
@@ -10,8 +10,23 @@ alert('Success');
 }
 run();
         
+        $("#list-items").html(localStorage.getItem("listItems"));
+    
+    $(".add-items").submit(function(event){
+      
+      event.preventDefault();
+      
+      var item = $("#todo-list-item").val();
+      
+      if (item){
+        $("#list-items").append(
+        "<li><input class='checkbox' type='checkbox' />" +
+          item + " <a class='remove'>x</a><hr></li>"
+        );
+        
       localStorage.setItem("listItems", $("#list-items").html());
         $("#todo-list-item").val("");
+        
         
         
       }
