@@ -1,0 +1,45 @@
+.headings {
+  font-family: 'Marcellus', sans-serif;
+  color: #b30000;
+}
+span {
+  font-family: Caveat;
+}
+.big {
+    font-size:45px;
+     font-weight:bold;
+}
+.body {
+  font-size:30px;
+}
+
+#awesome {
+  font-size:45px;
+  color: #330000;
+}
+#inputbox {
+  width:300px;
+  border-color:grey;
+  border-style:dashed;
+  border-width:2px;
+}
+#submit {
+  border-color:red;
+  border-width:3px;
+  margin-left:15px;
+}
+
+.completed {
+  text-decoration:line-through;
+}
+.remove {
+  float:right;
+  cursor:wait;
+}
+img {
+  border-radius: 20px;
+  width: 300px;
+}
+body {
+  background-color: lightblue;
+}
