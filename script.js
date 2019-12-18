@@ -1,6 +1,5 @@
 $(document).ready(function(){
-        
-function run(){
+        function run(){
 var password = prompt("Password Please");
 if(password != 'Janne'){
 document.body.innerHTML = '';
