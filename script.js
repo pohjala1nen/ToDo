@@ -1,7 +1,8 @@
 $(document).ready(function(){
+        
 function run(){
 var password = prompt("Password Please");
-if(password != 'tsirptsirp'){
+if(password != 'Janne'){
 document.body.innerHTML = '';
 document.body.innerHTML = 'Password Failed! Reload to Renter Password';
 }else{
